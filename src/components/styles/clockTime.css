@@ -1,5 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Orbitron:wght@400..900&display=swap');
+/* clockTime.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 
 .digits {
+    font-size: 6rem;
     font-family: "Orbitron", sans-serif;
+    font-feature-settings: 'tnum';
+}
+
+.time-container {
+    display: inline-block;
+    width: 6ch;
+    text-align: center;
+}
+
+
+@media (min-width: 576px) {
+    .digits {
+        font-size: 6rem;
+    }
+}
+@media (min-width: 768px) {
+    .digits {
+        font-size: 8rem;
+    }
+}
+@media (min-width: 992px) {
+    .digits {
+        font-size: 10rem;
+    }
 }

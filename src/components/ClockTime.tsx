@@ -20,8 +20,8 @@ export default function ClockTime() {
 
     return (
         <div className="text-center">
-            <h1 className="digits">
-                <span className="time-container">{timeString}</span>
+            <h1 className="digits m-0 p-0">
+                <span className="time-container digits">{timeString}</span>
             </h1>
         </div>
     );

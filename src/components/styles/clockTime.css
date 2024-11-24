@@ -5,7 +5,7 @@
 .digits {
     font-size: 6rem;
     font-family: "Orbitron", sans-serif;
-    font-feature-settings: 'tnum';
+    font-variant-numeric: tabular-nums;
 }
 
 .time-container {

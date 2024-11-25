@@ -2,3 +2,7 @@
     height: 100vh;
     background-color: #242424;
 }
+
+.auto-width {
+    width: 1000px;
+}
